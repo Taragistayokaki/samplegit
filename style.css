@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, rgba(63, 94, 251, 0.7), rgba(252, 70, 107, 0.7)), url('oha.jpg') no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.hero .btn {
+    font-size: 1.1rem;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+}
+
+/* Portfolio Section */
+.portfolio-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item h4 {
+    font-weight: 600;
+}
+
+#skills .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+#skills .card:hover {
+    transform: translateY(-10px);
+}
+/* Contact Section */
+form .form-label {
+    font-weight: 600;
+}
+
+form .btn {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+}
